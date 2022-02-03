@@ -5,7 +5,6 @@ from datetime import datetime
 
 
 def update_sr():
-
     SEASON = 29
     COLUMNS = ['date', 'season', 'tank', 'damage', 'support', 'quickplay']
     today = datetime.today().strftime('%m/%d/%y')
